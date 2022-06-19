@@ -71,11 +71,12 @@
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 <a href="https://example.com">
+<p align="center">
 <img id="product-screenshot" src="images/screenshot.png" alt="Product Name Screen Shot"
 style="display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;"/></a>
+    width: 60%;"/></p></a>
 
 Search and replace keywords: `deployed_link`,`product-screenshot`,`repo_name`, `project_title`, `project_description`
 
