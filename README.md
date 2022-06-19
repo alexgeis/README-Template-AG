@@ -78,7 +78,7 @@ style="display: block;
     margin-right: auto;
     width: 60%;"/></p></a>
 
-Search and replace keywords: `deployed_link`,`product-screenshot`,`repo_name`, `project_title`, `project_description`
+Search and replace keywords: `deployed_link`, `product-screenshot`, `repo_name`, `project_title`, `project_description`
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
