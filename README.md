@@ -31,7 +31,7 @@
     <a href="https://github.com/alexgeis/repo_name"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/alexgeis/repo_name">View Demo</a>
+    <a id="deployed_link" href="https://github.com/alexgeis/repo_name">View Demo</a>
     ·
     <a href="https://github.com/alexgeis/repo_name/issues">Report Bug</a>
     ·
@@ -69,9 +69,15 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
+<a href="https://example.com">
+<img id="product-screenshot" src="images/screenshot.png" alt="Product Name Screen Shot"
+style="display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;"/></a>
 
-Search and replace keywords: `repo_name`, `project_title`, `project_description`
+Search and replace keywords: `deployed_link`,`product-screenshot`,`repo_name`, `project_title`, `project_description`
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -148,7 +154,14 @@ See the [open issues](https://github.com/alexgeis/repo_name/issues) for a full l
 
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Any contributions you make are **greatly appreciated**.
+
+Please try to create bug reports that are:
+
+- _Reproducible_. Include steps to reproduce the problem.
+- _Specific_. Include as much detail as possible: which version, what environment, etc.
+- _Unique_. Do not duplicate existing opened issues.
+- _Scoped_ to a Single Bug. One bug per report.
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 Don't forget to give the project a star! Thanks again!
@@ -190,6 +203,7 @@ Helpful resources and kudos.
 - [GitHub Pages](https://pages.github.com)
 - [Font Awesome](https://fontawesome.com)
 - [React Icons](https://react-icons.github.io/react-icons/search)
+- [Markdown Studio](https://readme.so/editor)
 - []()
 - []()
 - []()
