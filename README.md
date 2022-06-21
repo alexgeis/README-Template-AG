@@ -84,6 +84,7 @@ Search and replace keywords: `deployed_link`, `product-screenshot`, `repo_name`,
 
 ### Built With
 
+- [webpack](https://webpack.js.org/)
 - [React.js](https://reactjs.org/)
 - [Bootstrap](https://getbootstrap.com)
 - [Node.js](https://nodejs.dev/)
