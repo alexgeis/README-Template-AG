@@ -111,8 +111,40 @@ This is an example of how to list things you need to use the software and how to
   npm install npm@latest -g
   ```
 
+<!-- PREREQ EXAMPLE
+Packages used in this project: -->
+<!-- - npm
+- css-loader
+- html-loader
+- html-webpack-plugin
+- style-loader
+- webpack
+- webpack-cli
+- webpack-dev-server
+  ```sh
+  npm install npm@latest css-loader html-loader html-webpack-plugin style-loader webpack webpack-cli webpack-dev-server -g
+  ``` -->
+
 ### Installation
 
+1. Clone the repo
+   ```sh
+   git clone https://github.com/alexgeis/repo_name.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. DEVELOPMENT - run "npm start" to spin up the development server
+   ```sh
+   npm start
+   ```
+4. PRODUCTION - run "npm build" to bundle the page per the Webpack settings
+   ```sh
+   npm build
+   ```
+
+<!-- API EXAMPLE
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
    ```sh
@@ -125,7 +157,7 @@ This is an example of how to list things you need to use the software and how to
 4. Enter your API in `config.js`
    ```js
    const API_KEY = "ENTER YOUR API";
-   ```
+   ``` -->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
