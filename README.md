@@ -1,3 +1,5 @@
+Search and replace keywords: `deployed_link`, `product-screenshot`, `repo_name`, `project_title`, `project_description`
+
 <div id="top"></div>
 
 <!-- PROJECT SHIELDS -->
@@ -31,7 +33,7 @@
     <a href="https://github.com/alexgeis/repo_name"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a id="deployed_link" href="https://github.com/alexgeis/repo_name">View Demo</a>
+    <a class="deployed_link" href="https://github.com/alexgeis/repo_name">View Demo</a>
     ·
     <a href="https://github.com/alexgeis/repo_name/issues">Report Bug</a>
     ·
@@ -70,7 +72,7 @@
 ## About The Project
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
-<a href="https://example.com">
+<a class="deployed_link" href="https://example.com">
 <p align="center">
 <img id="product-screenshot" src="images/screenshot.png" alt="Product Name Screen Shot"
 style="display: block;
@@ -78,12 +80,11 @@ style="display: block;
     margin-right: auto;
     width: 60%;"/></p></a>
 
-Search and replace keywords: `deployed_link`, `product-screenshot`, `repo_name`, `project_title`, `project_description`
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Built With
 
+- [Webpack](https://webpack.js.org/)
 - [React.js](https://reactjs.org/)
 - [Bootstrap](https://getbootstrap.com)
 - [Node.js](https://nodejs.dev/)
